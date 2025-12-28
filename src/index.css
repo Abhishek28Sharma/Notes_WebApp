@@ -1,0 +1,19 @@
+@import 'tailwindcss';
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --dark-color: #3a3a3a;
+  --text-color: #e1e1e1;
+  --primary-color: #4a90e2;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  background-color: var(--dark-color);
+  color: var(--text-color);
+}

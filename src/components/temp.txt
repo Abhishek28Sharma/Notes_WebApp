@@ -1,0 +1,46 @@
+<div
+      className={styles['card-container']}
+      onClick={() => {
+        display(props)
+      }}
+    >
+      <h3 className={styles['card-heading']}>{props.title}</h3>
+
+      <p className={styles['card-content']}>{props.content}</p>
+
+      <button
+        className={styles['delete-button']}
+        onClick={() => props.handleDelete(props.id)}
+      >
+        <MdCancel />
+      </button>
+    </div>
+
+
+    <>{isclicked ? <p>Hello</p> : <p>Hi</p>}</>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div className={styles['large-screen']}>
+        <div>
+          <button className={styles['back-button']} onClick={removeClicked}>
+            <FaArrowLeft />
+            Back
+          </button>
+        </div>
+        <h1 className={styles['larger-screen-heading']}>{props.title}</h1>
+        <p className={styles['large-screen-content']}>{props.content}</p>
+      </div>

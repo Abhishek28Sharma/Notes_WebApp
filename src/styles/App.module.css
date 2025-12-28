@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+  /* background: red; */
+}
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: column;
+  }
+}
